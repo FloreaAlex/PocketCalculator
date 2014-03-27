@@ -1,0 +1,16 @@
+Florea Alexandru - Ionut
+323CA
+Tema4 - POO - Pocket Calculator
+
+	The mothod that I chose in creating the AST is one pretty intuitive, with 
+two stacks (one for the operators and one for the intermediary sub-trees) which 
+in the end one of them will contain the AST.
+	Problems were many, from peeking an empty stack to thinking totally wrong
+the implementation. I think that the most troubling issue was the unary minus;
+i thought that I can deal with it without taking a special case, just for it.
+I was wrong!
+	Another issue was (and still is) the '^' operator, which I didn't really 
+get it how it works. 
+	After I have created the AST, I implemented the Visitor and Visitable 
+interfaces and visited the tree, one node after another, which I think it was 
+the easiest part of all the problem. :)
